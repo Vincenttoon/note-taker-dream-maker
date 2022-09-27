@@ -1,8 +1,16 @@
 const router = require('express').Router();
 const fs = require('fs');
+const { notes } = require('../../db/db.json');
+const { createNote, validateNote } = require('../../lib/notes');
+
 
 router.get('api/notes', (req, res) => {
-    console.log('should read the json and return saved notes');
+    let results = notes
+    // should read the db.json file and return all saved notes as JSON.
+    if (req.query) {
+        results = validateNote(req.query, results);
+    }
+    res.json(results);
 });
 
 router.post("/api/notes", (req, res) => {
