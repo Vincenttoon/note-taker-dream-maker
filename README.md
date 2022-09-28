@@ -1,4 +1,66 @@
-# note-taker-dream-maker
+# Note Taker
+
+![Screenshot of landing page](./public/assets/images/landing-page.jpg)
+![Screenshot of note page](./public/assets/images/Note-page.jpg)
+
+## License
+### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [MIT](https://opensource.org/licenses/MIT)
+
+## Description
+
+This application uses Express.js and Node to dynamically generate a note taking dashboard through HTML.
+
+By: [Vincent Toon](https://github.com/vincenttoon)
+
+## Table of Contents
+
+* [Installation](#installation)
+
+* [Usage](#usage)  
+
+* [Contributors](#contributors)
+
+* [Tests](#tests)
+
+* [Questions?](#questions)
+
+## Installation
+
+* Head to the repository to download or view this code: [Note Taker](https://github.com/Vincenttoon/note-taker-dream-maker)
+
+* Install node (npm i). Install express (npm i express).
+
+## Tests
+
+[Video Demonstration](https://drive.google.com/file/d/11jBrdA4ZqEN6k_844GGnrHnk3Z6slGQt/view)
+
+## Usage
+
+* Go to the public project repository and download/clone the code. Install npm. Install express.js (npm i express). Run npm to launch the port, visit the website and fill out your notes!
+
+* Application launches through a local port located in server.js.
+
+![Server.js code](./public/assets/images/server-js.jpg)
+
+* This server calls on separate API and HTML routes with different parameters based on the functionality of the application.
+
+![Html Route](./public/assets/images/html-routes.jpg)
+
+![Notes Routes](./public/assets/images/notes-routes.jpg)
+
+* Functions for these routes are created in notes.js to provide desired functionality.
+
+![Note Functions](./public/assets/images/note-functions.jpg)
+
+## Contributors
+
+* Starter code provided by Wash U Fullstack Development Bootcamp through: [Xandromus](https://github.com/coding-boot-camp/miniature-eureka)
+
+## Questions?
+
+Questions, comments, or concerns? Please Email me at:
+* vincenttoon22@gmail.com
 
 ## User Story
 - AS A small business owner
