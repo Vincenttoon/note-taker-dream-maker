@@ -35,6 +35,8 @@ By: [Vincent Toon](https://github.com/vincenttoon)
 
 [Video Demonstration](https://drive.google.com/file/d/11jBrdA4ZqEN6k_844GGnrHnk3Z6slGQt/view)
 
+[Heroku Live Link](https://note-taker-dream-maker-205.herokuapp.com/)
+
 ## Usage
 
 * Go to the public project repository and download/clone the code. Install npm. Install express.js (npm i express). Run npm to launch the port, visit the website and fill out your notes!
